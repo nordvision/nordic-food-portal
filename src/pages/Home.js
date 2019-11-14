@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import video from './maaemo-film.mp4'
+import video from '../resources/maaemo-film.mp4'
 import {Menu} from '../components/Menu';
 import autumnImage from './../resources/autumn.png';
 

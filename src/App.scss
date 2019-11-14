@@ -26,7 +26,8 @@
 
 $dark-blue: #282c34;
 
-@import './pages/home.scss';
+@import './pages/home';
+@import './pages/search';
 @import './components/menu';
 @import './components/tile';
 

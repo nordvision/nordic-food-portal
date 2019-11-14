@@ -25,13 +25,19 @@ function Home() {
 
         <div className="autumn">
             <div className="w-50">
-                <h2>Autumn</h2>
+                <h2 className="season-title">Autumn</h2>
                 <p>Autumn is the time for harvest, hunting and conservation. Explore recepies from the Scaninvian countries.</p>
-                <p>Show Autumn recepies</p>
-                <p>Read more about autumn in scandinavia</p>
+                <p className="underlined-text">Show Autumn recepies</p>
+                <p className="underlined-text">Read more about autumn in scandinavia</p>
             </div>
             <div className="w-50">
                 <img src={autumnImage} />
+            </div>
+        </div>
+
+        <div className="autumn-recipes">
+            <div>
+                <h2 className="tiles-title">Autumn recipes</h2>
             </div>
         </div>
     </div>

@@ -7,11 +7,11 @@ import ReactSVG from 'react-svg'
 function renderFlag(nationality) {
     switch(nationality) {
         case "no": 
-        return <ReactSVG src=".././resources/250px-Flag_of_Norway.svg.webp"/>
+        return <ReactSVG src="../resources/250px-Flag_of_Norway.svg"/>
         case "dk": 
-        return <ReactSVG src=".././resources/250px-Flag_of_Denmark.svg.webp"/>
+        return <ReactSVG src="../resources/250px-Flag_of_Denmark.svg.webp"/>
         case "se": 
-        return <ReactSVG src=".././resources/250px-Flag_of_Sweden.svg.webp"/>
+        return <ReactSVG src="../resources/250px-Flag_of_Sweden.svg.webp"/>
         case "fi": 
         return <ReactSVG src=".././resources/250px-Flag_of_Finland.svg.webp"/>
         case "is": 

@@ -1,0 +1,38 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin: 1rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.w-50 {
+    width: 50%;
+    margin: auto;
+    line-height: 100%;
+    img {
+        margin: 1rem;
+    }
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.body-50 {
+    width: 50%;
+    line-height: 100%;
+}
+
+.table {
+    width: fit-content;
+    line-height: 100%;
+    background-color: #CDEAF3;
+    height: fit-content;
+}

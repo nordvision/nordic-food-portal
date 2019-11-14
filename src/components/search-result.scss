@@ -1,7 +1,8 @@
 .search-result {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: space-around;
+  
   .tile {
     min-width: 240px;
   }

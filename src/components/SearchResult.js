@@ -26,8 +26,6 @@ class SearchResult extends Component {
         const { searchResult } = this.state;
         const { title} = this.props;
 
-        console.log('searchResult: ', searchResult);
-
         if (!searchResult) return <div className="search-result-placeholder"/>;
         return (
             <div>
@@ -35,7 +33,6 @@ class SearchResult extends Component {
             <div className="search-result">
 
                 {searchResult.map(element => {
-                    console.log('element: ', element);
                     return (
                             <Tile
                                 id={element.id}

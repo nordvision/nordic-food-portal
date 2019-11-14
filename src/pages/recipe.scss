@@ -7,6 +7,29 @@
   img {
     width: 100%;
   }
+
+  .flag {
+    img {
+      width: 100px;
+    }
+  }
+
+}
+
+.recipe-title {
+  font-size: 52px;
+  font-weight: normal;
+}
+
+.recipe-tag {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.recipe-description {
+
+  font-size: 26px;
+  line-height: 1.7rem;
 }
 
 .w-50 {
@@ -25,14 +48,8 @@
     justify-content: space-between;
 }
 
-.flag {
-    img {
-      width: 29px;
-    }
-  }
-
-.body-50 {
-    width: 50%;
+.body-63 {
+    width: 63%;
     line-height: 100%;
 }
 
@@ -41,4 +58,22 @@
     line-height: 100%;
     background-color: #CDEAF3;
     height: fit-content;
+  margin-top: 28px;
+  padding: 2rem;
+}
+
+.powered {
+  display: flex;
+  margin-bottom: 60px;
+  img {
+    height: 15px;
+  }
+}
+
+.recipe-ingredient {
+  margin-bottom: 6px;
+}
+
+.recipe-youtube {
+  margin-bottom: 60px;
 }

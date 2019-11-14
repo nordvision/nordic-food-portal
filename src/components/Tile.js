@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactCountryFlag from "react-country-flag";
+import {Link} from 'react-router-dom';
 
-const Tile = ({ title, logo, imgSrc, flagSrc, hearts, nationality }) => {
+const Tile = ({ id, title, logo, imgSrc, flagSrc, hearts, nationality }) => {
     return (
-        <div className="title-wrapper">
+        <Link className="title-wrapper" to={`/recipe/${id}`}>
             <div className="tile">
                 <img src={imgSrc} className="food-image"/>
                 <img src={logo} className="logo" />
@@ -15,7 +16,7 @@ const Tile = ({ title, logo, imgSrc, flagSrc, hearts, nationality }) => {
                 <h2 className="tile-title">{title}</h2>
                 <span>{hearts}</span>
             </div>
-        </div>
+        </Link>
     );
 };
 

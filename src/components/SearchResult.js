@@ -29,7 +29,7 @@ class SearchResult extends Component {
                 {searchResult.map(element => (
                     <Tile
                         title={element.title}
-                        logo={element.image}
+                        logo={element.logo}
                         flagSrc={element.image}
                         imgSrc={element.image}
                         hearts={element.hearts}

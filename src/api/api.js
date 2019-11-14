@@ -14,6 +14,6 @@ export function getSearch(query, numberOfResults) {
 }
 
 export function getRecipe(id) {
-    return fetch(`${apiUrl}/recipes/${id}`).then(response => response.json());
+    return fetch(`${apiUrl}/recipe/${id}`).then(response => response.json());
 }
 

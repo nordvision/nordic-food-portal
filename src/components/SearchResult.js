@@ -12,7 +12,7 @@ class SearchResult extends Component {
     }
 
     componentDidMount() {
-        const {query, numberOfResults} = this.props;
+        const { query, numberOfResults } = this.props;
         console.log('query:', query);
         getSearch(query, numberOfResults)
             .then(result => this.setState({searchResult: result }));
@@ -20,6 +20,8 @@ class SearchResult extends Component {
 
     render() {
         const { searchResult } = this.state;
+
+        console.log('searchResult: ', searchResult);
 
         if (!searchResult) return null;
         return (

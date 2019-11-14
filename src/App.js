@@ -8,6 +8,7 @@ import About from './pages/About';
 import Seasons from './pages/Seasons';
 import FoodStories from './pages/FoodStories';
 import Search from './pages/Search';
+import Recipe from './pages/Recipe';
 function App() {
 
   return (
@@ -32,6 +33,9 @@ function App() {
                 </Route>
                 <Route exact path="/test">
                     <Test />
+                </Route>
+                <Route path="/recipe/:recipeId">
+                    <Recipe />
                 </Route>
             </Switch>
         </Router>

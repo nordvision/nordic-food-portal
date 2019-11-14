@@ -10,7 +10,7 @@ const Explore = ({}) => {
 
         <h2>Others searched for</h2>
         <SearchResult query="hallo" numberOfResults={4} />
-        
+
     </div>
   );
 };

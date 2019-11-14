@@ -17,3 +17,6 @@ export function getRecipe(id) {
     return fetch(`${apiUrl}/recipe/${id}`).then(response => response.json());
 }
 
+export function getRecipeList(list){
+    return fetch(`${apiUrl}/get_items/${list.toString()}`).then(response => response.json())
+}

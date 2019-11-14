@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  max-width: 80%;
+  margin: auto;
 }
 
 .App-logo {
@@ -21,7 +24,10 @@
   color: #09d3ac;
 }
 
-@import 'components/menu';
+$dark-blue: #282c34;
+
+@import './pages/home.scss';
+@import './components/menu';
 @import './components/tile';
 
 .tiles {

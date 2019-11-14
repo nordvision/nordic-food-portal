@@ -1,0 +1,46 @@
+.home-video {
+  width: 100%;
+}
+
+.home-title-wrapper {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.home-background-wrapper {
+  position: relative;
+}
+
+.home-title {
+  font-size: 50px;
+}
+
+.title-explore {
+  font-size: 40px;
+  width: 50%;
+  text-align: left;
+  margin-left: 40px;
+  line-height: 1;
+
+  p {
+    margin: 0 0 1rem;
+  }
+}
+
+.autumn {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+
+  img {
+    width: 100%;
+  }
+}
+
+.w-50 {
+  width: 50%;
+}

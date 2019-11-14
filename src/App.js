@@ -8,8 +8,8 @@ import About from './pages/About';
 import Seasons from './pages/Seasons';
 import FoodStories from './pages/FoodStories';
 import Search from './pages/Search';
-
 function App() {
+
   return (
     <div className="App">
         <Router>

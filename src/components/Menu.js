@@ -1,19 +1,19 @@
 import React from 'react';
-import ProTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 
-function Menu() {
-  return (
-    <div className="menu">
-        <Link to ="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/seasons">Seasons</Link>
-        <Link to="/stories">Food stories</Link>
-        <Link to="/search">Search</Link>
-        <Link to="/test">Test </Link>
-    </div>
-  );
-}
+const Menu = () => {
+    return (
+        <div className="menu">
+            <Link to="/" className="menu-item">Home</Link>
+            <Link to="/about" className="menu-item">About</Link>
+            <Link to="/seasons" className="menu-item">Seasons</Link>
+            <Link to="/stories" className="menu-item">Food stories</Link>
+            <Link to="/search" className="menu-item">Search</Link>
+            <Link to="/test" className="menu-item">Test </Link>
+        </div>
+    );
+};
 
 Menu.propTypes = {};
 

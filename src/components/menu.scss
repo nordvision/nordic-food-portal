@@ -1,4 +1,11 @@
 .menu {
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  height: 35px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: $dark-blue;
 }

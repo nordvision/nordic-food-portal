@@ -13,15 +13,16 @@
 }
 
 .flag {
-  position: absolute;
-  top: 0;
   height: 10%;
-  right: 0;
+  left: 0;
+  font-size: 60px;
+  top: -12px;
+  position: absolute;
 }
 
 .logo {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   height: 10%;
 }

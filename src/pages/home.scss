@@ -51,12 +51,24 @@
   font-size: 20px;
 }
 
+.underlined-text {
+  text-decoration: underline;
+}
+
 .tiles-title {
   font-size: 20px;
   font-weight: normal;
   text-align: left;
 }
 
-.underlined-text {
-  text-decoration: underline;
+.autumn-recipes {
+  .search-result{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  }
+
+  .title-wrapper {
+    width: 40%;
+  }
 }

@@ -7,3 +7,7 @@ export function getMenuPoints() {
 export function getTiles(numberOfTiles = 5) {
     return fetch(`${apiUrl}/recipes/${numberOfTiles}`).then(response => response.json());
 }
+
+export function getSearch(query, numberOfResults) {
+    return fetch(`${apiUrl}/recipes/${query}/${numberOfResults}`).then(response => response.json());
+}

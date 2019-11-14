@@ -30,6 +30,7 @@ $dark-blue: #282c34;
 @import './pages/search';
 @import './components/menu';
 @import './components/tile';
+@import './components/search-result';
 
 .tiles {
   display: flex;

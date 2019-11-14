@@ -1,0 +1,18 @@
+.search-result {
+  display: flex;
+  flex-wrap: wrap;
+
+  .tile {
+    min-width: 240px;
+  }
+}
+
+.search-result-title {
+  text-align: left;
+  font-size: 16px;
+}
+
+.search-result-placeholder {
+  height: 200px;
+  display: block;
+}

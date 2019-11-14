@@ -28,10 +28,10 @@ class SearchResult extends Component {
 
         console.log('searchResult: ', searchResult);
 
-        if (!searchResult) return null;
+        if (!searchResult) return <div className="search-result-placeholder"/>;
         return (
             <div>
-                {title && <h2>{title}</h2>}
+                {title && <h2 className="search-result-title">{title}</h2>}
             <div className="search-result">
 
                 {searchResult.map(element => {

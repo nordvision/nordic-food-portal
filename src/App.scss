@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+@import 'components/menu';
+@import './components/tile';
+
+.tiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

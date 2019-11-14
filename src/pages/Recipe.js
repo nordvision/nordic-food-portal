@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { getRecipe } from '../api/api';
 import { useParams, withRouter } from 'react-router-dom';
+import Flag from '.././components/Flag';
 
 class Recipe extends Component {
     constructor(props) {
@@ -32,6 +33,9 @@ class Recipe extends Component {
             <div>
                 <div className="intro">
                     <div className="w-50">
+                    <div className="flag">
+                            <Flag nationality={recipe.nationality} />
+                        </div>
                         <h1>{recipe.title}</h1>
                         <p>From {recipe.company} ({recipe.nationality})</p>
                     </div>

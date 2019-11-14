@@ -8,28 +8,51 @@
   margin: 0.5rem;
 }
 
+a.title-wrapper {
+  text-decoration: none;
+}
+
 .tile {
   position: relative;
 }
 
 .flag {
-  height: 10%;
-  left: 0;
-  font-size: 60px;
-  top: -12px;
-  position: absolute;
+  img {
+    width: 29px;
+  }
+}
+
+.likes {
+  svg {
+    height: 15px;
+  }
+  height: 15px;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 10%;
+  width: 29px;
 }
+
 img.food-image {
   width: 100%;
 }
 
 .tile-title {
-  font-size: 20px;
+  font-size: 18px;
+  margin: 0 0 0 10px;
+  text-decoration: none;
+
+}
+.flag {
+  margin-bottom: 10px;
+}
+
+.tile-information {
+  display: flex;
+  text-align: left;
+  margin-top: 20px;
 }

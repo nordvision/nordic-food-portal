@@ -9,8 +9,8 @@ export function getTiles(numberOfTiles = 5) {
 }
 
 export function getSearch(query, numberOfResults) {
-//    return fetch(`${apiUrl}/search/${query}/${numberOfResults}`).then(response => response.json());
-    return fetch(`${apiUrl}/search/${query}`).then(response => response.json());
+    return fetch(`${apiUrl}/search/${query}/${numberOfResults}`).then(response => response.json());
+//    return fetch(`${apiUrl}/search/${query}`).then(response => response.json());
 }
 
 export function getRecipe(id) {

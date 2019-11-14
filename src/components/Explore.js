@@ -6,9 +6,9 @@ import autumnImage from '../resources/autumn.png';
 const Explore = ({}) => {
   return (
     <div className="explore">
-        <SearchResult title="Explore what is trending this month" query={[52772, 52772]} numberOfResults={4} />
+        <SearchResult title="Explore what is trending this month" query={[52772, 52772, 52772, 52772]} numberOfResults={4} />
 
-        <SearchResult title="Others searched for" query={[52772, 52772]} numberOfResults={4} />
+        <SearchResult title="Others searched for" query={[52772, 52772, 52772, 52772]} numberOfResults={4} />
 
         <div className="autumn">
             <div className="w-50">

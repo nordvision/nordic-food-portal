@@ -13,7 +13,7 @@ const Explore = ({}) => {
         <div className="autumn">
             <div className="w-50">
                 <h2 className="season-title">Autumn</h2>
-                <p>Autumn is the time for harvest, hunting and conservation. Explore recepies from the Scaninvian countries.</p>
+                <p className="season-description">Autumn is the time for harvest, hunting and conservation. Explore recepies from the Scaninvian countries.</p>
                 <p className="underlined-text">Show Autumn recepies</p>
                 <p className="underlined-text">Read more about autumn in scandinavia</p>
             </div>

@@ -25,6 +25,13 @@ class Search extends Component {
                     placeholder='Search item'
                     onEnter={this.submitInput}
                 />
+                <div className="links">
+                    <span className="link-item">Country</span>
+                    <span className="link-item">Ingredients</span>
+                    <span className="link-item">Seasons</span>
+                    <span className="link-item">Type of food</span>
+                    <span className="link-item">Complexity</span>
+                </div>
             </div>
           {this.state.query ? <SearchResult query={this.state.query} numberOfResults={8}/> : <Explore/>}
         </div>

@@ -32,6 +32,7 @@ $dark-blue: #282c34;
 @import './components/tile';
 @import './components/search-result';
 @import './pages/recipe';
+@import './components/explore';
 
 .tiles {
   display: flex;

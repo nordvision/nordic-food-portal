@@ -73,7 +73,7 @@ class Recipe extends Component {
                         id={recipe.youtube}
                     /></div>)}
 
-                <SearchResult title={`Other ${recipe.tags[0]} recipes`} query={recipe.tags[0]} numberOfResults={3} />
+                {recipe.tags && recipe.tags[0] && <SearchResult title={`Other ${recipe.tags[0]} recipes`} query={recipe.tags[0]} numberOfResults={3} />}
             </div>
         );
     }
